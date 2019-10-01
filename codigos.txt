@@ -1,0 +1,32 @@
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
+df = pd.DataFrame(np.random.randint(0,100,size=(15, 4)), columns=list('ABCD'))
+pd.set_option('display.max_columns', 35)
+DF['Team'].value_counts()
+DF.shape
+DF2 = DF1[['Team', 'Yellow Cards', 'Red Cards']]
+DF.sort_values(by=['Red Cards', 'Yellow Cards'])
+amarelo = DF['Yellow Cards'].sum()
+euro12[euro12['Goals'] > 6]
+euro12[euro12['Team'].str.contains('G')]
+euro12.iloc[:, 0:7]
+df_todos = pd.concat(DFRAMES, ignore_index=True)
+df_todos.rename(columns = {'Município':'MUNICIPIO', 'Vendas':'VENDAS'}, inplace=True)
+df_todos2 = df_todos.sort_values(['ANO','VENDAS'], ascending=False)
+DF_TOTAL = df_todos2.groupby(['ESTADO','ANO'])['VENDAS'].sum().reset_index()
+DF_TOTAL.pivot(index='ESTADO', columns='ANO')
+wine2 = pd.read_table('URL', usecols=[1,2,4,5,7,9,11], delimiter = ',', names = colunas)
+wine2.replace({'alcohol':{14.23:''}}, inplace=True)
+wine2.isnull().sum()
+np.random.randint(10, size=10)
+chipo[chipo['quantity']==chipo['quantity'].max()]
+DF.loc[DF['COLUMN'].idxmax()] 
+DF['COLUMN'].max()
+DF['COLUMN'].value_counts()
+DF['COLUMN'] = DF['COLUMN'].str.replace('$', '')
+DF = DF.astype({'COLUMN': float})
+DF['COLUMN'].nunique()
+DF2 = DF1.set_index('Nome', inplace=True)
+
+
+
+
