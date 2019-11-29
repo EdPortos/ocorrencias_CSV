@@ -1,0 +1,109 @@
+﻿ESTADO,REGIAO,TIPO,QTD_UNIVERSIDADES,QTD_CENTROS_UNIVERSITARIOS,QTD_FACULDADES,QTD_INSTITUTOS_FEDERAIS,TOTAL_INSTITUICOES,MATRICULADOS_FEMININO,MATRICULADOS_MASCULINO,TOTAL_CONCLUINTE_FEMININO,TOTAL_CONCLUINTE_MASCULINO,ORIUNDOS_PUBLICA,ORIUNDOS_PRIVADA
+Acre,Norte,Federal,1,0,0,1,2,6281,5292,1351,826,10925,332
+Acre,Norte,Estadual,0,0,0,0,0,0,0,0,0,0,0
+Acre,Norte,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Acre,Norte,Privada,0,1,8,0,9,15600,10358,2744,1652,0,0
+Alagoas,Nordeste,Estadual,2,0,0,0,2,4689,2792,564,287,4470,2994
+Alagoas,Nordeste,Federal,1,0,0,1,2,16936,15244,1576,1115,23554,6546
+Alagoas,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Alagoas,Nordeste,Privada,0,3,22,0,25,39878,27212,5287,3400,39574,27009
+Amapa,Norte,Federal,1,0,0,1,2,6405,6195,564,427,9698,2260
+Amapa,Norte,Estadual,1,0,0,0,1,604,556,180,143,1112,48
+Amapa,Norte,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Amapa,Norte,Privada,0,0,12,0,12,21031,14572,2873,1718,30558,4854
+Amazonas,Norte,Federal,1,0,0,1,2,15840,14302,1505,1132,24211,5815
+Amazonas,Norte,Estadual,1,0,0,0,1,10893,10011,1408,1168,2719,18185
+Amazonas,Norte,Privada,1,4,15,0,20,66802,50228,11612,7775,0,0
+Amazonas,Norte,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Bahia,Nordeste,Federal,4,0,0,2,6,34107,30891,3764,2541,32874,31578
+Bahia,Nordeste,Estadual,4,0,0,0,4,30242,17858,4375,1876,38656,9444
+Bahia,Nordeste,Privada,2,10,124,0,136,203915,124130,31962,16544,222147,103793
+Bahia,Nordeste,Municipal,0,0,0,0,0,11,41,0,0,22,30
+Ceara,Nordeste,Federal,3,0,0,1,4,24127,28974,3009,2745,31821,21011
+Ceara,Nordeste,Estadual,3,0,0,0,3,25576,19930,2284,1289,28088,13346
+Ceara,Nordeste,Privada,1,9,66,0,76,116059,85325,17645,11046,125434,74383
+Ceara,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Distrito Federal,Centro-Oeste,Federal,1,0,1,1,3,20442,18752,2961,2302,19163,20028
+Distrito Federal,Centro-Oeste,Privada,1,8,53,0,62,102596,78991,18900,13920,118871,62448
+Distrito Federal,Centro-Oeste,Estadual,0,0,1,0,1,442,312,125,89,691,63
+Distrito Federal,Centro-Oeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Espirito Santo,Sudeste,Federal,1,0,0,1,2,16510,15554,2420,1759,17754,13067
+Espirito Santo,Sudeste,Privada,1,4,68,0,73,72484,51139,13657,7932,86813,36178
+Espirito Santo,Sudeste,Estadual,0,0,1,0,1,105,210,42,48,245,62
+Espirito Santo,Sudeste,Municipal,0,0,1,0,1,166,59,54,22,208,17
+Goias,Centro-Oeste,Federal,1,0,0,2,3,17971,17948,2645,2054,22557,13349
+Goias,Centro-Oeste,Estadual,1,0,0,0,1,12044,7002,1590,670,16283,2759
+Goias,Centro-Oeste,Municipal,1,1,2,0,4,7188,5458,1195,812,8895,3719
+Goias,Centro-Oeste,Privada,1,4,85,0,90,112250,75948,18577,10989,142968,44370
+Maranhão,Nordeste,Estadual,2,0,0,0,2,13096,8862,1605,890,18553,3344
+Maranhão,Nordeste,Federal,1,0,0,1,2,22998,22640,1555,1200,28739,15133
+Maranhão,Nordeste,Privada,1,2,46,0,49,69487,46369,9059,5428,76613,38723
+Maranhão,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Mato Grosso,Centro-Oeste,Federal,1,0,0,1,2,15015,14907,1658,1198,22746,6467
+Mato Grosso,Centro-Oeste,Estadual,1,0,0,0,1,10839,7966,1748,852,16619,2183
+Mato Grosso,Centro-Oeste,Privada,1,2,55,0,58,73816,46074,12182,6624,99313,20100
+Mato Grosso,Centro-Oeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Mato Grosso do Sul,Centro-Oeste,Federal,2,0,0,1,3,14981,13397,1984,1291,20069,8234
+Mato Grosso do Sul,Centro-Oeste,Privada,2,2,25,0,29,55301,37117,8866,5168,74319,18016
+Mato Grosso do Sul,Centro-Oeste,Estadual,1,0,0,0,1,4408,3046,611,297,5980,1470
+Mato Grosso do Sul,Centro-Oeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Minas Gerais,Sudeste,Federal,11,0,0,6,17,90251,88754,13360,10456,112973,62590
+Minas Gerais,Sudeste,Privada,9,23,249,0,281,380240,263574,65395,41362,503056,139788
+Minas Gerais,Sudeste,Estadual,2,0,1,0,3,17462,11599,2557,1356,8179,20882
+Minas Gerais,Sudeste,Municipal,0,0,0,0,0,206,68,11,6,210,64
+Para,Norte,Federal,4,0,0,1,5,30408,26548,5557,3425,26577,27822
+Para,Norte,Estadual,1,0,0,0,1,8576,6323,1903,1073,223,14674
+Para,Norte,Privada,1,3,47,0,51,116780,73395,14508,8624,138925,50894
+Para,Norte,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Paraiba,Nordeste,Federal,2,0,0,1,3,26287,26637,3848,2930,32559,18871
+Paraiba,Nordeste,Estadual,1,0,0,0,1,9861,7750,896,587,11741,5863
+Paraiba,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Paraiba,Nordeste,Privada,0,3,38,0,41,49752,36547,7680,5214,54672,31484
+Parana,Sul,Estadual,7,0,0,0,7,43718,30977,6788,3856,45596,29057
+Parana,Sul,Privada,5,19,158,0,182,232533,165481,40072,25866,320258,76849
+Parana,Sul,Federal,3,0,0,1,4,29833,38312,3996,3888,37358,30736
+Parana,Sul,Municipal,0,1,2,0,3,925,715,213,147,1478,160
+Pernambuco,Nordeste,Federal,3,0,0,2,5,27298,27692,3621,2693,29847,23529
+Pernambuco,Nordeste,Estadual,1,0,0,0,1,9686,7851,1404,815,11800,4909
+Pernambuco,Nordeste,Privada,1,11,77,0,89,114000,80590,16806,11503,126896,66300
+Pernambuco,Nordeste,Municipal,0,0,22,0,22,9043,6481,1709,992,12060,3241
+Piaui,Nordeste,Federal,1,0,0,1,2,20480,17574,3867,2388,27890,10109
+Piaui,Nordeste,Estadual,1,0,0,0,1,9481,6703,1340,767,13483,2625
+Piaui,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Piaui,Nordeste,Privada,0,2,40,0,42,44678,30243,6041,3481,47196,27574
+Rio de Janeiro,Sudeste,Privada,11,18,80,0,109,303562,227330,46652,32180,293986,232766
+Rio de Janeiro,Sudeste,Federal,4,2,3,3,12,75800,70464,8798,6806,68208,73207
+Rio de Janeiro,Sudeste,Estadual,2,1,10,0,13,23299,15605,3206,1596,22616,16002
+Rio de Janeiro,Sudeste,Municipal,0,0,2,0,2,544,772,41,48,893,422
+Rio Grande do Norte,Nordeste,Federal,2,0,0,1,3,18676,22955,2561,2783,21166,20463
+Rio Grande do Norte,Nordeste,Estadual,1,0,1,0,2,5618,4044,858,487,577,9085
+Rio Grande do Norte,Nordeste,Privada,1,2,21,0,24,39177,27353,6978,4583,42516,23816
+Rio Grande do Norte,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Rio Grande do Sul,Sul,Privada,14,7,90,0,111,238389,169273,36454,22827,295733,109225
+Rio Grande do Sul,Sul,Federal,6,0,0,3,9,56982,50955,7579,5429,80240,27591
+Rio Grande do Sul,Sul,Estadual,1,0,0,0,1,2335,1654,292,120,3438,545
+Rio Grande do Sul,Sul,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Rondonia,Norte,Federal,1,0,0,1,2,6998,5384,842,482,10979,1360
+Rondonia,Norte,Estadual,0,0,0,0,0,0,0,0,0,0,0
+Rondonia,Norte,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Rondonia,Norte,Privada,0,2,31,0,33,40071,25729,6600,3786,51545,14177
+Roraima,Norte,Federal,1,0,0,1,2,4397,3707,488,310,2375,5718
+Roraima,Norte,Estadual,1,0,0,0,1,1120,810,199,75,1760,170
+Roraima,Norte,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Roraima,Norte,Privada,0,1,4,0,5,9651,6156,1295,789,4135,5888
+Santa Catarina,Sul,Privada,9,10,70,0,89,177835,123980,28668,17748,211991,89216
+Santa Catarina,Sul,Federal,2,0,0,2,4,19384,22856,2400,2100,22403,19825
+Santa Catarina,Sul,Estadual,1,0,0,0,1,6385,5931,1014,626,7076,5184
+Santa Catarina,Sul,Municipal,1,1,1,0,3,6069,4387,1214,752,6347,4092
+São Paulo,Sudeste,Privada,29,65,412,0,506,989866,710673,176619,113429,1322023,374828
+São Paulo,Sudeste,Estadual,4,1,72,0,77,99894,130633,14747,16621,126937,103553
+São Paulo,Sudeste,Federal,3,0,1,1,5,23643,29963,3534,3753,29848,23375
+São Paulo,Sudeste,Municipal,2,5,17,0,24,24967,19757,5030,3559,32201,12229
+Sergipe,Nordeste,Federal,1,0,0,1,2,14158,12821,1863,1292,17702,9165
+Sergipe,Nordeste,Privada,1,0,16,0,17,33407,21377,5203,3052,35504,18975
+Sergipe,Nordeste,Estadual,0,0,0,0,0,0,0,0,0,0,0
+Sergipe,Nordeste,Municipal,0,0,0,0,0,0,0,0,0,0,0
+Tocantins,Norte,Federal,1,0,0,1,2,10820,9238,1401,886,13949,5774
+Tocantins,Norte,Estadual,1,0,0,0,1,1264,792,410,152,1741,315
+Tocantins,Norte,Municipal,0,1,1,0,2,2890,1896,468,225,603,4165
+Tocantins,Norte,Privada,0,2,17,0,19,26448,17268,3803,2159,35812,7696
