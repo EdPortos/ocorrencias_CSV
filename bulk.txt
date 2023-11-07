@@ -1,0 +1,66 @@
+import pyodbc
+import os
+
+base = r'E:\arquivos'
+file = 'revised.csv'
+
+
+def read_csv(file_name):
+
+    path = os.path.join(base, file_name)
+    print(path)
+    return path
+
+def inserir_bulk(tabela, file_name):
+
+    colunas = """[time_ref]
+                                  ,[account]
+                                  ,[code]
+                                  ,[country_code]
+                                  ,[product_type]
+                                  ,[value]
+                                  ,[status]
+    """
+    arquivo = os.path.join(base, file_name)
+
+    SERVER = 'DESKTOP-S8TN15H'
+    DATABASE = 'DB_TESTE'
+    USERNAME = 'edilson'
+    PASSWORD = 'mudar123'
+
+    connectionString = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}'
+    conn = pyodbc.connect(connectionString)
+    cursor = conn.cursor()
+
+    criar_temporaria = f"""SELECT {colunas} 
+                    INTO #BULKTempTable
+                    FROM {tabela}
+                    WHERE 1 = 0;"""
+    cursor.execute(criar_temporaria)
+    cursor.commit()
+
+    inserir_temporaria = f"""BULK INSERT #BULKTempTable
+                    FROM '{arquivo}'
+                    WITH (
+                      FIELDTERMINATOR = ',',
+                      ROWTERMINATOR = '\n',
+                      FIRSTROW = 2
+                    );"""
+
+    cursor.execute(inserir_temporaria)
+    cursor.commit()
+
+    insert2 = f"""INSERT INTO {tabela} ({colunas})
+                    SELECT {colunas}
+                    FROM #BULKTempTable;
+                """
+    cursor.execute(insert2)
+    cursor.commit()
+    cursor.close()
+    conn.close()
+
+    return
+
+
+if __name__ == "__main__":
+    inserir_bulk(tabela='tb_teste', file_name='revised.csv')
